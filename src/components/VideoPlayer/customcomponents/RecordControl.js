@@ -13,7 +13,6 @@ class RecordButton extends Button {
   }
   handleClick() {
     console.log("录制");
-    console.log(this.options);
     this.handleRecordClick();
   }
 }
